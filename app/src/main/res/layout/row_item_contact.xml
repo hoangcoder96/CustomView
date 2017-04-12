@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="1"
+        android:id="@+id/tv_color"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="70dp"
+        android:layout_height="70dp" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_name"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Hoang Nhat To"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_number"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="09881100000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
